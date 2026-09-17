@@ -81,6 +81,13 @@ python run_finance_experiment.py
 
 Phoenix will print a link to compare results. The first experiment is a baseline; later runs use the same dataset so you can compare prompt changes.
 
+With Phoenix up and traces already in `finance-experiments`:
+
+```bash
+python run_tool_eval_examples.py          # schema check + tool_selection judge
+python run_tool_eval_examples.py --matrix # confusion matrix vs tool_selection_human
+```
+
 ## Notes
 
 - Phoenix stores local data under `~/.phoenix`.
