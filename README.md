@@ -29,6 +29,7 @@ This project is for learning agent workflows and observability. It is **not fina
 | `create_finance_dataset.py` | Uploads three test prompts to Phoenix |
 | `finance_evaluators.py` | LLM judges for requirement adherence and allocation consistency |
 | `run_finance_experiment.py` | Runs the agent on the dataset and scores the outputs |
+| `run_tool_eval_examples.py` | Schema check + tool-selection judge on existing TOOL spans; `--matrix` compares that to `tool_selection_human` labels |
 
 ## Setup
 
